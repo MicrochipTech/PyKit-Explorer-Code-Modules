@@ -10,8 +10,8 @@ where a WHO_AM_I register is defined.
 
 On-board devices covered:
   0x39  APDS9960 (gesture / colour / proximity)
-  0x68  ICM-20948 (IMU, when IMU_ADDR is pulled low)
-  0x69  ICM-20948 (IMU, default address)
+  0x4A  BNO085 (IMU, default address)
+  0x4B  BNO085 (IMU, alternate address)
   0x76  BME680 (environmental sensor, SDO low)
   0x77  BME680 (environmental sensor, SDO high)
 
@@ -54,8 +54,8 @@ _KNOWN_DEVICES = {
     0x45: "SHT31 (temp/humidity, ADDR high)",
     0x48: "ADS1x15 (ADC, ADDR GND) / TMP102 (temp)",
     0x49: "ADS1x15 (ADC, ADDR VDD)",
-    0x4A: "ADS1x15 (ADC, ADDR SDA)",
-    0x4B: "ADS1x15 (ADC, ADDR SCL)",
+    0x4A: "ADS1x15 (ADC, ADDR SDA) / BNO085 (IMU, default)",
+    0x4B: "ADS1x15 (ADC, ADDR SCL) / BNO085 (IMU, alternate)",
     0x57: "MAX17048 (fuel gauge) / 24AA02 (EEPROM)",
     0x60: "Si5351 (clock gen) / MPL3115A2 (pressure)",
     0x62: "SCD40 (CO2 sensor)",
