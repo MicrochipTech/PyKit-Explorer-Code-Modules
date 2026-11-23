@@ -1023,7 +1023,7 @@ BND ||                      <- orange bar, width = bend amount
    D3=wave   TILT=vol
 ```
 
-Requires the ICM20948 IMU (on-board) and an APDS9999 proximity breakout
+Requires the BNO085 IMU (Ruler baseboard) and an APDS9999 proximity breakout
 connected to the QWIIC connector.
 
 ```python
